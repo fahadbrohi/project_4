@@ -1,0 +1,91 @@
+.bg{
+  background: url('./images/bg.png') no-repeat  ;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.clouds{
+  width: 1800px;
+
+}
+
+.cloud1{
+  
+  position: absolute;
+  width: 15%;
+}
+.cloud2{
+  
+  position: absolute;
+  top:25%;
+  width: 20%;
+  
+}
+.cloud3{
+  position: absolute;
+  top:15%;
+  width: 15%;
+ 
+  
+}
+.cloud4{
+ 
+  position: absolute;
+  top:2%;
+  width: 30%;
+  
+}
+
+.mountain{
+  position: absolute;
+  width: 100%;
+  top: 2%;
+  
+
+}
+.mountain1{
+  position: absolute;
+  width: 100%;
+  top: 2%;
+  transform: translateX(1600px);
+ 
+  
+
+}
+
+.mountain3{
+  position: absolute;
+  width: 100%;
+  transform: translateX(1800px);
+  top: 2%;
+  
+
+}
+
+.road{
+  position: absolute;
+  width: 100%;
+  bottom: 2px;
+  
+}
+
+.box{
+  position: absolute;
+  z-index: 1;
+  top: 33%;
+  left: 30%;
+  width: 478px;
+  height: 435px;
+}
+
+.bandi{
+  position: absolute;
+  z-index: 1;
+  width: 105%;
+}
+
+.fighter{
+  position: absolute;
+  bottom: 0;
+}
